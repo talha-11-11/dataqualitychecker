@@ -11,9 +11,9 @@ setup(
         'seaborn',
         'scikit-learn',
     ],
-    author='Your Name',
+    author='Talha Sarfraz',
     description='A tool to automatically check data quality in datasets.',
-    url='https://github.com/yourusername/dataqualitychecker',
+    url='https://github.com/talha-11-11/dataqualitychecker',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
