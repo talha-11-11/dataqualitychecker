@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dataqualitychecker',  # Your package name, must be unique on PyPI
+    name='dataqualitychecker',  
     version='0.1.0',
     author='Talha Sarfraz',
     author_email='talhasarfraz29@gmail.com',
