@@ -1,22 +1,24 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='dataqualitychecker',
-    version='0.1',
-    packages=find_packages(),
-    install_requires=[
-        'pandas',
-        'numpy',
-        'matplotlib',
-        'seaborn',
-        'scikit-learn',
-    ],
+    name='dataqualitychecker',  # Your package name, must be unique on PyPI
+    version='0.1.0',
     author='Talha Sarfraz',
-    description='A tool to automatically check data quality in datasets.',
+    author_email='talhasarfraz29@gmail.com',
+    description='A Python package for quick data quality profiling with visualization and imputation suggestions',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     url='https://github.com/talha-11-11/dataqualitychecker',
+    packages=find_packages(),
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
+    ],
+    python_requires='>=3.6',
+    install_requires=[
+        'pandas',
+        'seaborn',
+        'matplotlib',
     ],
 )
